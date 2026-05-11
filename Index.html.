@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Aprendizaje - Carlos Sucerquia</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 5px solid var(--accent-color);
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            margin-top: 25px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .dofa-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .dofa-card {
+            padding: 20px;
+            border-radius: 6px;
+            background-color: #fdfdfd;
+            border-left: 5px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .dofa-deb { border-left-color: #e74c3c; } /* Rojo */
+        .dofa-opo { border-left-color: #2ecc71; } /* Verde */
+        .dofa-for { border-left-color: #3498db; } /* Azul */
+        .dofa-ame { border-left-color: #f1c40f; } /* Amarillo */
+
+        .profile-img-placeholder {
+            width: 150px;
+            height: 150px;
+            background-color: #ddd;
+            border-radius: 50%;
+            margin: 0 auto 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-weight: bold;
+            border: 3px solid white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        @media (max-width: 768px) {
+            header h1 { font-size: 2em; }
+            .section { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="profile-img-placeholder">Foto Perfil</div>
+        <h1>Carlos Sucerquia</h1>
+        [span_1](start_span)<p>Portafolio de Aprendizaje[span_1](end_span)</p>
+        <p>Instituto Universitario Adventista de Venezuela | [span_2](start_span)Seminario Teológico Adventista de Venezuela[span_2](end_span)</p>
+        [span_3](start_span)<p>Nirgua, Venezuela - Febrero 2026[span_3](end_span)</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="section" id="seccion-i">
+            <h2>Sección I: Información Personal</h2>
+            
+            <h3>Información Biográfica</h3>
+            [span_4](start_span)<p><strong>Nombre completo:</strong> Carlos Josue Sucerquia Gonzalez[span_4](end_span).</p>
+            
+            <h3>Estudios Previos</h3>
+            <ul>
+                [span_5](start_span)<li>Bachiller en Ciencias (Liceo Bolivariano "El Canton" Barinas 2022)[span_5](end_span).</li>
+                [span_6](start_span)<li>Curso de Inglés Conversacional (Maryland Academy, Barinas 2025)[span_6](end_span).</li>
+                [span_7](start_span)<li>Diplomado de Salud y Evangelismo (CASBI, Barinas, 2024)[span_7](end_span).</li>
+                [span_8](start_span)<li>Curso de Herramientas de IA para la excelencia ética (Nirgua-IUNAV, 2025)[span_8](end_span).</li>
+            </ul>
+
+            <h3>Trayectoria y Cargos en la Iglesia</h3>
+            <ul>
+                [span_9](start_span)<li>Diácono en la iglesia de Guacas (AVSOC) (2019-2020)[span_9](end_span).</li>
+                [span_10](start_span)<li>Director de Sonido en la iglesia de Guacas (2019-2021)[span_10](end_span).</li>
+                [span_11](start_span)<li>Anciano en la iglesia de Guacas y posteriormente en la iglesia del Este Corocito (2020-2023)[span_11](end_span).</li>
+                [span_12](start_span)<li>Obrero Bíblico en el Distrito Barinas Centro Norte (2024-2025)[span_12](end_span).</li>
+                [span_13](start_span)<li>Director de Sociedad de Jóvenes y Subdirector del club de Conquiguias[span_13](end_span).</li>
+            </ul>
+
+            <h3>Aportaciones a la Iglesia</h3>
+            [span_14](start_span)<p>Plan de visitación evangelística en el Distrito Barinas Centro Norte (Enero-Marzo 2025), logrando alcanzar 8 almas para Cristo y formar 4 nuevos grupos pequeños[span_14](end_span). [span_15](start_span)Evangelismo activo en Barinas como obrero Bíblico, logrando evangelizar a más de 20 personas y alcanzando 50 estudios bíblicos[span_15](end_span).</p>
+
+            <h3>Autobiografía y Llamado</h3>
+            [span_16](start_span)<p>Nací el 1 de septiembre del año 2005. A la edad de 9 años me bauticé junto con mi madre y me convertí en miembro oficial de la iglesia adventista del séptimo día[span_16](end_span). [span_17](start_span)A la edad de 14 años recibí el llamado de Dios a este maravilloso ministerio[span_17](end_span). [span_18](start_span)Decidí estudiar teología en respuesta a este llamado que mi Dios me hizo estando aún joven, decidiendo obedecer su voz y confiar que Él proveería todo lo necesario[span_18](end_span). [span_19](start_span)Elegí IUNAV porque era la institución más cercana, asequible y dentro de mi país[span_19](end_span).</p>
+        </div>
+
+        <div class="section" id="seccion-ii">
+            <h2>Sección II: Cosmovisión</h2>
+            
+            [span_20](start_span)<p>Mi cosmovisión se asienta sobre la roca de una realidad trascendente que reconoce a un Dios auto existente, la fuente de toda vida[span_20](end_span). [span_21](start_span)Entiendo que la existencia no se limita a lo tangible; vivimos inmersos en una metafísica donde el universo es el escenario de un conflicto cósmico real y profundo entre el bien y el mal[span_21](end_span).</p>
+
+            <h3>Misión</h3>
+            [span_22](start_span)<p>Servir como un predicador de la Verdad, fiel a la palabra de Dios[span_22](end_span). [span_23](start_span)Buscando obtener herramientas hermenéuticas e históricas para interpretar las Escrituras con fidelidad, transformando ese conocimiento en un servicio tangible a la iglesia y a Dios[span_23](end_span).</p>
+
+            <h3>Visión</h3>
+            [span_24](start_span)<p>Ser un faro de luz que muestre la verdad, dando entendimiento al mundo con la ayuda del Espíritu Santo y mostrar a Jesús como el puente de reconciliación con Dios[span_24](end_span).</p>
+
+            <h3>Valores Fundamentales</h3>
+            <ul>
+                [span_25](start_span)<li><strong>Amor y Compasión:</strong> Motor de mi vocación hacia los marginados y los que sufren[span_25](end_span).</li>
+                [span_26](start_span)<li><strong>Fidelidad a la Revelación:</strong> Las Sagradas Escrituras como la norma suprema de fe y práctica[span_26](end_span).</li>
+                [span_27](start_span)<li><strong>Justicia Social y Defensa del Vulnerable:</strong> Responsabilidad ética de buscar la equidad y defender a los vulnerados[span_27](end_span).</li>
+                [span_28](start_span)<li><strong>Servicio Abnegado:</strong> Liderazgo basado en el ejemplo de Cristo, priorizando el bienestar de la comunidad[span_28](end_span).</li>
+                [span_29](start_span)<li><strong>Transparencia:</strong> Compromiso con la honestidad financiera y administrativa[span_29](end_span).</li>
+            </ul>
+
+            <h3>Reflexión de Vida Espiritual</h3>
+            [span_30](start_span)<p>Tras mi llegada al IUNAV, han ocurrido cambios significativos en mi vida espiritual[span_30](end_span). [span_31](start_span)La comunión con Dios se ha ido fortaleciendo impulsada por el compromiso personal y las programaciones que nos mantienen enfocados en la misión[span_31](end_span). [span_32](start_span)Las disciplinas que han impactado positivamente incluyen el hábito de levantarme temprano, la lectura reflexiva y la oración constante[span_32](end_span).</p>
+        </div>
+
+        <div class="section" id="seccion-iii">
+            <h2>Sección III: Experiencias de Aprendizaje</h2>
+            
+            <h3>Experiencia Teórica</h3>
+            [span_33](start_span)<p>Estar en esta institución ha sido una experiencia transformadora que me ha ayudado a alinear mi vida con el propósito de Dios[span_33](end_span). [span_34](start_span)Entre las actividades realizadas se encuentran la monografía sobre los escritos no canónicos, casos del Pentateuco y la reseña crítica de la Armonía de los cuatro evangelios[span_34](end_span).</p>
+
+            <h3>Experiencias No Áulicas</h3>
+            [span_35](start_span)[span_36](start_span)<p>He participado en campañas evangelísticas, doctrinales y de salud, además de colportaje y programas de impacto en la comunidad (Cerca de ti)[span_35](end_span)[span_36](end_span). [span_37](start_span)Cada una de estas etapas ha sido fundamental para forjar mi carácter y enseñarme a liderar con responsabilidad[span_37](end_span).</p>
+
+            <h3>Investigaciones</h3>
+            [span_38](start_span)<p>Mi proyecto sobre la Ley en Mateo 5:17 y Efesios 2:15 me ha permitido descubrir que no existe una contradicción entre "cumplir" y "abolir"[span_38](end_span). [span_39](start_span)Comprendo ahora que la teología no debe quedarse en la teoría, sino que el estudio de la Palabra debe servir para superar el legalismo y promover una ética del Reino verdaderamente liberadora[span_39](end_span).</p>
+        </div>
+
+        <div class="section" id="seccion-iv">
+            <h2>Sección IV: Análisis DOFA</h2>
+            
+            <div class="dofa-grid">
+                <div class="dofa-card dofa-deb">
+                    <h4>Debilidades</h4>
+                    [span_40](start_span)<p>Desafíos en la organización del tiempo, tendencia a la autosuficiencia, y un perfeccionismo excesivo que me impide disfrutar de los logros[span_40](end_span).</p>
+                </div>
+                <div class="dofa-card dofa-opo">
+                    <h4>Oportunidades</h4>
+                    [span_41](start_span)<p>Acceso a programas de certificación y mentoría directa de pastores experimentados (Pr. Brito y Pr. Alexander Barrios) para mi desarrollo ministerial[span_41](end_span).</p>
+                </div>
+                <div class="dofa-card dofa-for">
+                    <h4>Fortalezas</h4>
+                    [span_42](start_span)<p>Habilidades para el servicio, predicación, canto y liderazgo juvenil, sumado a una disposición para escuchar y base sólida teológica[span_42](end_span).</p>
+                </div>
+                <div class="dofa-card dofa-ame">
+                    <h4>Amenazas</h4>
+                    [span_43](start_span)<p>La presión por cumplir altas expectativas y la realidad de salarios limitados pueden generar agotamiento o desánimo si falta una espiritualidad profunda[span_43](end_span).</p>
+                </div>
+            </div>
+
+            <h3>Reflexión Personal</h3>
+            [span_44](start_span)<p>He experimentado un cambio de perspectiva fundamental: he comprendido que un ministerio sin límites es un "ministerio vacío"[span_44](end_span). [span_45](start_span)He pasado de la omnipotencia de intentar cubrirlo todo a la humildad de reconocer mi necesidad de descanso y orden[span_45](end_span). [span_46](start_span)Me comprometo a establecer límites claros en mi agenda diaria y someter cada plan a la oración, asegurando un servicio equilibrado[span_46](end_span).</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
